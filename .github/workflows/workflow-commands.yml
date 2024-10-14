@@ -1,0 +1,14 @@
+name: "Workflow Commands"
+
+jobs:
+    sm-job:
+        runs-on: unbuntu-latest
+        steps:
+            - name: "Group Logging"
+            run: |
+                echo "::group::myGroupMessage::"
+                echo "1st Mesg by Shandra"
+                echo "2nd Mesg by Shandra"
+                echo "::endgroup::"
+
+
