@@ -11,5 +11,11 @@ jobs:sm-job:
                 echo "1st Mesg by Shandra"
                 echo "2nd Mesg by Shandra"
                 echo "::endgroup::"
-
+            - name: "Step 1"
+            run: |
+                echo "1st Mesg by Shandra"
+            - name: "Step 2"
+            run: |
+                echo "2nd Mesg by Shandra"
+                
 
