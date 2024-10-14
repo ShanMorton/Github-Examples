@@ -1,7 +1,8 @@
 name: "Workflow Commands"
 
-jobs:
-    sm-job:
+on: [ "push" ]
+
+jobs:sm-job:
         runs-on: unbuntu-latest
         steps:
             - name: "Group Logging"
