@@ -4,7 +4,7 @@ jobs:
   sm-context:
     runs-on: ubuntu-latest
     steps:
-      - name: "sm step1"
+      - name: "sm step"
         run: "echo Hello MY_ACTION"
         env: 
-            MY_ACTION: ${{github.action}}
+            MY_ACTION: ${{ github.action }}
