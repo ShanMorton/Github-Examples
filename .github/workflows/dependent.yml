@@ -4,12 +4,12 @@ jobs:
   job2:
     runs-on: ubuntu-latest
     needs: job1
-    steps: 
-      - name: stepA
-      run: "echo World from Job2!"
+      steps: 
+        - name: stepA
+        run: "echo World from Job2!"
   job1:
     runs-on: ubuntu-latest
     needs: job1
-    steps:
-      - name: stepA
-        run: "echo Hello from Job1!"
+      steps:
+        - name: stepA
+          run: "echo Hello from Job1!"
