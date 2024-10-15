@@ -11,3 +11,6 @@ to set up a self hosted runner.
 
 left off at 1:48:57 in video.
 Unsure of my error at this time.
+
+### Left off at 2:11:17 Encrpyted Secrets
+My brain is tired.
