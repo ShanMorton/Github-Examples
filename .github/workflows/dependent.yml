@@ -4,9 +4,9 @@ jobs:
   job2:
     runs-on: ubuntu-latest
     needs: job1
-    steps:
+    steps: 
       - name: stepA
-     run: "echo World from Job2!"
+      run: "echo World from Job2!"
   job1:
     runs-on: ubuntu-latest
     needs: job1
